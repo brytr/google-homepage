@@ -128,6 +128,8 @@ body {
     display: inline-block;
 }
 .aass {
+    position: relative;
+    top: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -151,6 +153,8 @@ body {
     width: auto;
 }
 .jj9m {
+    position: relative;
+    top: 200px;
     padding: 20px;
     max-height: 160px;
     flex-shrink: 0;
@@ -211,6 +215,26 @@ body {
     height: 34px;
 }
 .fpocx {
+    position: relative;
     height: 70px;
     padding-top: 18px;
+}
+.gnoo:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+.gnoo {
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
 }
